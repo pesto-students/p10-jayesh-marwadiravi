@@ -3,6 +3,7 @@ body {
     border-right: 2px solid black;
 }
 
+
 body {
     display: flex;
     flex-direction: column;

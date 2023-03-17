@@ -12,7 +12,6 @@ Question 1.1 - When a user enters an URL in the browser, how does the browser fe
   ![image](https://user-images.githubusercontent.com/108273689/224480409-ef9bec7d-c7f4-4be5-87d2-906ebe31d7e1.png)
 
 
-
 #### When a user enters a URL in the browser, the browser follows a series of steps to fetch the desired result:
 
 1. Parsing the URL: The browser parses the URL entered by the user to identify the protocol (HTTP or HTTPS), domain name, path, and query parameters.
