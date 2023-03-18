@@ -1,0 +1,68 @@
+Exercise1.1:
+1.When a user enters an URL in the browser, how does the browser 
+fetch the desired result ? Explain this with the below in mind and 
+Demonstrate this by drawing a diagram for the same.(2-3hours)
+
+a.What is the main functionality of the browser?
+b.High Level Components of a browser.
+c.Rendering engine and its use.
+d.Parsers (HTML, CSS, etc)
+e.Script Processors
+f.Tree construction
+g.Order of script processing
+h.Layout and Painting
+
+
+When a user enters a URL in the browser, the browser follows a series of steps to fetch the desired result:
+
+1. Parsing the URL: The browser parses the URL entered by the user to identify the protocol (HTTP or HTTPS), domain name, path, and query parameters.
+
+DNS Lookup: The browser performs a DNS lookup to convert the domain name into an IP address. This involves sending a request to a DNS server to obtain the IP address associated with the domain name.
+
+2. Establishing a TCP Connection: The browser establishes a TCP connection with the server using the IP address obtained in the previous step. This involves a three-way handshake between the browser and the server.
+
+3. Sending an HTTP Request: Once the TCP connection is established, the browser sends an HTTP request to the server. The request contains the method (GET, POST, PUT, DELETE, etc.), the path, and any query parameters.
+
+5. Receiving the HTTP Response: The server processes the request and sends an HTTP response back to the browser. The response contains a status code (e.g., 200 for success, 404 for not found), headers (e.g., content type, cache-control), and a response body (e.g., HTML, JSON).
+
+6. Rendering the Response: The browser receives the response and renders it on the screen. This involves parsing the HTML, CSS, and JavaScript, and displaying the content in the browser window.
+
+7. Closing the Connection: Once the response has been rendered, the browser closes the TCP connection with the server.
+
+
+main functionality of browser:
+
+The main functionality of a browser is to enable users to access and view content on the World Wide Web. Here are some of the main functions of a browser:
+
+Rendering web pages: Browsers interpret the HTML, CSS, and JavaScript code on web pages to display them to users. This involves parsing the code and rendering the page with text, images, and multimedia content.
+
+Navigation: Browsers enable users to navigate between web pages using hyperlinks, back and forward buttons, and bookmarks.
+
+Security: Browsers provide security features such as SSL encryption, certificate validation, and popup blocking to protect users from malware, phishing, and other online threats.
+
+Tabbed browsing: Browsers allow users to open multiple web pages in separate tabs, which makes it easier to switch between pages and keep track of multiple tasks.
+
+Search: Browsers often include a search bar that allows users to perform web searches from within the browser. They may also include search suggestions and auto-complete features to make searching faster and more convenient.
+
+Extensions and add-ons: Browsers allow users to customize their browsing experience with extensions and add-ons that provide additional functionality, such as ad blocking, password managers, and social media integrations.
+
+Overall, the main functionality of a browser is to provide a user-friendly interface for accessing and interacting with the World Wide Web.
+
+
+A browser consists of several high-level components that work together to provide the user with a seamless browsing experience. These components include:
+
+User Interface (UI): The user interface is the part of the browser that the user interacts with. It includes the address bar, toolbar, tabs, menus, and other elements that allow the user to navigate the web, access settings, and perform other tasks.
+
+Rendering engine: The rendering engine is responsible for parsing HTML, CSS, and JavaScript code and rendering web pages on the screen. Different browsers use different rendering engines, such as Blink (used in Chrome), Gecko (used in Firefox), and WebKit (used in Safari).
+
+JavaScript engine: The JavaScript engine is responsible for executing JavaScript code on web pages. Browsers typically use their own JavaScript engines, such as V8 (used in Chrome) and SpiderMonkey (used in Firefox).
+
+Networking stack: The networking stack handles network requests and responses. It includes protocols such as HTTP and HTTPS, and handles tasks such as DNS resolution, establishing TCP connections, and transferring data.
+
+Browser extensions: Browser extensions are small software programs that users can install to add new functionality to the browser, such as ad blockers, password managers, and social media integrations. Extensions are typically developed using web technologies such as HTML, CSS, and JavaScript.
+
+Browser security features: Browsers include a variety of security features to protect users from online threats such as malware, phishing, and identity theft. These features may include SSL encryption, certificate validation, popup blockers, and safe browsing warnings.
+
+These components work together to provide the user with a fast, secure, and user-friendly browsing experience.
+
+
