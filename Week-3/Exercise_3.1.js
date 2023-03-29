@@ -29,6 +29,4 @@ function add(a, b) {
   memoizeAdd(100, 100);
   memoizeAdd(100, 100);
   
-  // Excercise 3.2
-  
   
