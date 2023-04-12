@@ -1,0 +1,16 @@
+{
+    "name": "Pesto",
+    "version": "1.0.0",
+    "description": "",
+    "main": "code.js",
+    "scripts": {
+      "test": "jest",
+      "coverage": "jest --collect-coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "jest": "^29.5.0"
+    }
+  }
